@@ -8,7 +8,7 @@
     "require": {
         "symfony/options-resolver": "*",
         "symfony/webpack-encore-bundle": "^1.7",
-        "ezsystems/ezplatform-admin-ui": "^2.1",
+        "ezsystems/ezplatform-admin-ui": "^2",
         "twig/twig": "^3.0"
     },
     "license": "MIT",
