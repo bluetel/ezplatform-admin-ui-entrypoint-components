@@ -1,0 +1,12 @@
+services: 
+    Bluetel\EzEntrypointComponentBundle\Component\EntrypointComponent:
+        abstract: true
+        lazy: true
+
+    Bluetel\EzEntrypointComponentBundle\Component\EntrypointCSSComponent:
+        abstract: true
+        lazy: true
+    
+    Bluetel\EzEntrypointComponentBundle\Component\EntrypointScriptComponent:
+        abstract: true
+        lazy: true

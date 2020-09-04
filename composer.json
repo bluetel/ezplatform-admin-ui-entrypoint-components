@@ -1,0 +1,25 @@
+{
+    "name": "bluetel/ezplatform-admin-ui-entrypoint-components",
+    "description": "Set of admin UI components for loading assets directly from the webpack encore entrypoint.json",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": { "Bluetel\\EzEntrypointComponentBundle\\": "src/" }
+    },
+    "require": {
+        "symfony/options-resolver": "*",
+        "symfony/webpack-encore-bundle": "^1.7",
+        "ezsystems/ezplatform-admin-ui": "^2.1",
+        "twig/twig": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Lee",
+            "email": "rizza@rizza.net"
+        },
+        {
+            "name": "Bluetel Solutions",
+            "email": "developers@bluetel.co.uk"
+        }
+    ]
+}

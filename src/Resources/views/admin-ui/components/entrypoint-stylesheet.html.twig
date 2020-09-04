@@ -1,0 +1,8 @@
+{% for stylesheet in stylesheets|default([]) %}
+    <link href="{{ stylesheet }}"
+      rel="stylesheet"
+      type="text/css"
+      {{ crossorigin|default(false) ? 'crossorigin="' ~ crossorigin ~ '"' : "" }}
+      {{ integrity|default(false) ? 'integrity="' ~ integrity ~ '"' : "" }}
+    />
+{% endfor %}

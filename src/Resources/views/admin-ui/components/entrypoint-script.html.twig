@@ -1,0 +1,12 @@
+{% apply spaceless %}
+{% for script in scripts|default([]) %}
+    <script type="application/javascript"
+            src="{{ script }}"
+            {{ async|default(false) ? 'async="' ~ async ~ '"' : "" }}
+            {{ defer|default(false) ? 'defer="' ~ defer ~ '"' : "" }}
+            {{ crossorigin|default(false) ? 'crossorigin="' ~ crossorigin ~ '"' : "" }}
+            {{ integrity|default(false) ? 'integrity="' ~ integrity ~ '"' : "" }}
+    ></script>
+{% endfor %}
+{% endapply %}
+

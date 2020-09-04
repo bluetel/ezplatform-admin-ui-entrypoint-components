@@ -1,0 +1,7 @@
+{% if not scripts is empty  %}
+    {% include "@EzEntrypointComponent/admin-ui/components/entrypoint-script.html.twig" with {"scripts" : scripts} %}
+{% endif %}
+
+{% if not stylesheets is empty %}
+    {% include "@EzEntrypointComponent/admin-ui/components/entrypoint-stylesheet.html.twig" with {"stylesheets" : stylesheets} %}
+{% endif %}
